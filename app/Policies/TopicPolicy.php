@@ -16,4 +16,6 @@ class TopicPolicy extends Policy
     {
         return $user->isAuthorOf($topic);
     }
+    
+
 }
